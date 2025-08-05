@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KOMETA - Испытай удачу и выиграй призы!</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="loadingScreen" class="loading-screen">
+    <img src="your-loading-logo.png" alt="Логотип загрузки" class="loading-logo" loading="lazy" />
+    <div class="progress-bar-container"><div class="progress-bar" id="progressBar"></div></div>
+  </div>
+
+  <div id="gameWrapper" class="game-wrapper">
+    <img src="effect-light.webp" alt="Эффект свечения" class="effect-light" id="effectLight" loading="lazy" />
+    <img src="person-1.webp" alt="Персонаж 1" class="character character-1" id="character1" loading="lazy" />
+    <img src="person-2.webp" alt="Персонаж 2" class="character character-2" id="character2" loading="lazy" />
+    <img src="person-3.webp" alt="Персонаж 3" class="character character-3" id="character3" loading="lazy" />
+
+    <img src="1.webp" alt="Синий элемент 1" class="glowing-element glowing-element-1" id="glowingElement1">
+    <img src="2.webp" alt="Синий элемент 2" class="glowing-element glowing-element-2" id="glowingElement2">
+    <img src="3.webp" alt="Синий элемент 3" class="glowing-element glowing-element-3" id="glowingElement3">
+    <div id="mainContent" class="main-content hidden">
+      <img src="your-main-logo.png" alt="Основной логотип" class="main-logo" id="mainLogo" loading="lazy" />
+      <img src="wheel-pointer-image.webp" alt="Указатель колеса" class="wheel-pointer-image" loading="lazy" />
+      <img src="wheel-around.webp" alt="Обвод колеса" class="wheel-around" id="wheelAround" loading="lazy" />
+      <div class="wheel-container" id="wheel">
+        <img src="your-wheel-image.png" alt="Колесо Фортуны" id="wheelImage" loading="lazy" />
+      </div>
+      <img src="spin-button-image.png" alt="Крутить колесо!" class="interactive-button" id="spinButton" loading="lazy" />
+    </div>
+
+    <div id="winScreen" class="win-screen hidden">
+      <div id="explosionContainer" class="explosion-container hidden">
+        <img src="your-explosion-gif.gif" alt="Эффект взрыва" class="explosion-gif" loading="lazy" />
+      </div>
+       <img src="big-win.webp" alt="Большой выигрыш!" class="win-message-1" id="congratulationsText">
+      <h3 class="win-message-2" id="winMessage">ВЫ ВЫИГРАЛИ 50 ФРИ СПИНОВ!</h3>
+      <img src="claim-bonus-button-image.png" alt="Забрать бонус" class="interactive-button" id="claimBonusButton" loading="lazy" />
+      
+    </div>
+  </div>
+
+  <audio id="spinSound" src="your-spin-sound.mp3" preload="auto"></audio>
+  <audio id="winSound" src="your-win-sound.mp3" preload="auto"></audio>
+  
+</body>
+</html>
