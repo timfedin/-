@@ -108,7 +108,7 @@ p {
 }
 .wheel-pointer-image {
     position: absolute;
-    top: 27%; /* ПОДБЕРИТЕ ЭТО ЗНАЧЕНИЕ! */
+    margin-top: calc(15% - 35px);
     left: 50%;
     transform: translateX(-50%); /* Центрирование по горизонтали */
     width: 60px; /* Ширина стрелки, настройте под вашу картинку */
@@ -152,7 +152,7 @@ p {
 }
 .wheel-around {
     position: absolute;
-    top: 51%; /* Центрируем по вертикали относительно gameWrapper */
+    margin-top: 327px;
     left: 50%; /* Центрируем по горизонтали относительно gameWrapper */
     transform: translate(-50%, -50%); /* Точное центрирование */
     width: 350px; /* **ПОДБЕРИТЕ** эту ширину, чтобы она была немного больше, чем wheel-container */
