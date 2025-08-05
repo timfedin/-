@@ -164,6 +164,6 @@ wheelContainer.classList.remove('no-animation');
 claimBonusButton.addEventListener('click', () => {
 winSound.pause();
 winSound.currentTime = 0;
-window.location.href = 'https://your.affiliate.link/bonus';
+window.location.href = 'https://octocpa.scaletrk.com/click?o=353&a=1116&link_id=1252';
 console.log('Кнопка "Забрать бонус" нажата. Перенаправление...');
 });
