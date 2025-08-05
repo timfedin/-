@@ -108,7 +108,7 @@ p {
 }
 .wheel-pointer-image {
     position: absolute;
-    margin-top: calc(15% - 35px);
+    margin-top: 39%;
     left: 50%;
     transform: translateX(-50%); /* Центрирование по горизонтали */
     width: 60px; /* Ширина стрелки, настройте под вашу картинку */
@@ -420,6 +420,7 @@ p {
         margin-top: 0;
     }
     .wheel-pointer-image {
+        margin-top: calc(15% - 35px);
         top: 180px; /* **ПОДБЕРИТЕ ЭТО ЗНАЧЕНИЕ ДЛЯ МАЛЕНЬКИХ ЭКРАНОВ!** */
         width: 50px;
     }
