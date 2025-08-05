@@ -437,7 +437,7 @@ p {
     }
     .wheel-around {
         width: 255px;
-        top: 48%; /* Центрируем по вертикали относительно gameWrapper */
+        margin-top: calc(15% + 235px);
         left: 50%; /* Центрируем по горизонтали относительно gameWrapper */
     }
     .interactive-button {
