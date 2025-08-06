@@ -186,6 +186,6 @@ spinButton.addEventListener('click', () => {
 claimBonusButton.addEventListener('click', () => {
     winSound.pause();
     winSound.currentTime = 0;
-    window.location.href = 'https://octocpa.scaletrk.com/click?o=353&a=1116&link_id=1252';
+    window.location.href = 'https://octocpa.scaletrk.com/click?o=353&a=1116&sub_id1=afterprelend';
     console.log('Кнопка "Забрать бонус" нажата. Перенаправление...');
 });
